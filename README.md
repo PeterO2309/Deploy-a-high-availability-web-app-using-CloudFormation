@@ -30,7 +30,8 @@ An editor would be helpful to visualize the image as well as code. Download the 
 A free user account on www.lucidchart.com is required to be able to draw the web app architecture diagrams for AWS.
 
 
-###How to run the supporting material?
+### How to run the supporting material?
+
 You can run the supporting material in two easy steps:
 - Ensure that the AWS CLI is configured before running the command below
 - Check the region in the create.sh file
