@@ -28,12 +28,12 @@ You can run the supporting material in two easy steps:
 - Ensure that the AWS CLI is configured before running the command below
 - Check the region in the create.sh file
 - Create the network and server infrastructure
-./create.sh myFirstStack final-project.yml server-parameters.json
+```./create.sh myFirstStack final-project.yml server-parameters.json```
 
 To make an update
 - Change the AMI ID and key-pair name in the servers.yml
 - Check the region in the update.sh file
-./update.sh myFirstStack final-project.yml server-parameters.json
+```./update.sh myFirstStack final-project.yml server-parameters.json```
 
 
 
