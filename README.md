@@ -6,7 +6,7 @@ This project is a simplified Instagram clone (developed using JavaScript, and HT
 It comprises of two parts:
 - Diagram: a visual aid to understand the CloudFormation script.
 
-<img width="461" alt="image" src="screenshots/INFRASTRUCTURAL DIAGRAM.png">
+<img alt="infrastructural diagram" src="screenshots/INFRASTRUCTURAL DIAGRAM.png">
 
 - Script (Template and Parameters): CloudFormation script that interprets the instructions.
 
