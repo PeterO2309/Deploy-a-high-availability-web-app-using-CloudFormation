@@ -11,15 +11,7 @@ It comprises of two parts:
 - Script (Template and Parameters): CloudFormation script that interprets the instructions.
 
 
-### Prerequisites:
-- AWS Account
-- Student-ready starter code - Download and unzip this file via https://drive.google.com/file/d/15vQ7-utH7wBJzdAX3eDmO9ls35J5_sEQ/view.
-
-### Topics Covered:
-- S3 bucket creation
-
-
-###Dependencies
+### Dependencies
 1. AWS account
 You would be required to have an AWS account to build cloud infrastructure.
 
@@ -43,12 +35,5 @@ To make an update
 - Check the region in the update.sh file
 ./update.sh myFirstStack final-project.yml server-parameters.json
 
-## Table of Contents
-
-- [Create S3 Bucket](#create-s3-bucket) 
-- [Upload files to S3 Bucket](#upload-files-to-s3-bucket)
 
 
-## Create S3 Bucket
-
-1. Navigate 
