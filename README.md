@@ -32,23 +32,20 @@ A free user account on www.lucidchart.com is required to be able to draw the web
 
 ###How to run the supporting material?
 You can run the supporting material in two easy steps:
-# Ensure that the AWS CLI is configured before running the command below
-# Create the network infrastructure
-# Check the region in the create.sh file
-./create.sh myFirstStack network.yml network-parameters.json
-# Create servers
-# Change the AMI ID and key-pair name in the servers.yml
-# Check the region in the update.sh file
-./update.sh mySecStack servers.yml server-parameters.json
+- Ensure that the AWS CLI is configured before running the command below
+- Check the region in the create.sh file
+- Create the network and server infrastructure
+./create.sh myFirstStack final-project.yml server-parameters.json
+
+To make an update
+- Change the AMI ID and key-pair name in the servers.yml
+- Check the region in the update.sh file
+./update.sh myFirstStack final-project.yml server-parameters.json
 
 ## Table of Contents
 
 - [Create S3 Bucket](#create-s3-bucket) 
 - [Upload files to S3 Bucket](#upload-files-to-s3-bucket)
-- [Secure Bucket via IAM](#secure-bucket-via-iam)
-- [Configure S3 Bucket](#configure-s3-bucket)
-- [Distribute Website via CloudFront](#distribute-website-via-cloudfront)
-- [Access Website in Web Browser](#access-website-in-web-browser)
 
 
 ## Create S3 Bucket
