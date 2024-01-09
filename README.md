@@ -12,12 +12,9 @@ It comprises of two parts:
 
 
 ### Dependencies
-1. AWS account
-You would be required to have an AWS account to build cloud infrastructure.
-2. VS code editor
-An editor would be helpful to visualize the image as well as code. Download the VS Code editor here.
-3. An account on www.lucidchart.com
-A free user account on www.lucidchart.com is required to be able to draw the web app architecture diagrams for AWS.
+1. AWS account to build cloud infrastructure.
+2. VS code editor to visualize the image as well as code. 
+3. A free user account on www.lucidchart.com is required to be able to draw the web app architecture diagrams for AWS.
 
 
 ## How to run the supporting material?
